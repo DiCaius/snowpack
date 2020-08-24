@@ -1,14 +1,14 @@
 {
   "name": "@hisystems/snowpack-app-scripts-vue",
-  "version": "1.8.4",
+  "version": "1.8.5",
   "main": "snowpack.config.js",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@hisystems/snowpack-plugin-dotenv": "^2.0.1",
-    "@hisystems/snowpack-plugin-vue": "^2.1.1"
+    "@hisystems/snowpack-plugin-dotenv": "^2.0.2",
+    "@hisystems/snowpack-plugin-vue": "^2.1.2"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"
 }

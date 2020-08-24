@@ -1,6 +1,6 @@
 {
   "name": "@hisystems/snowpack-app-template-blank-typescript",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "license": "MIT",
   "keywords": [
     "csa-template"
@@ -19,11 +19,11 @@
     "canvas-confetti": "^1.2.0"
   },
   "devDependencies": {
-    "@hisystems/snowpack-plugin-run-script": "^2.1.1",
+    "@hisystems/snowpack": "^2.10.0",
+    "@hisystems/snowpack-plugin-run-script": "^2.1.2",
     "@types/canvas-confetti": "^1.0.0",
     "@types/snowpack-env": "^2.3.0",
     "prettier": "^2.0.5",
-    "@hisystems/snowpack": "^2.9.0",
     "typescript": "^3.9.7"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"

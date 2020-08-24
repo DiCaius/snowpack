@@ -1,6 +1,6 @@
 {
   "name": "@hisystems/snowpack-app-template-vue",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "license": "MIT",
   "keywords": [
     "csa-template"
@@ -17,8 +17,8 @@
     "vue": "^3.0.0-rc.4"
   },
   "devDependencies": {
-    "@hisystems/snowpack-app-scripts-vue": "^1.8.4",
-    "@hisystems/snowpack": "^2.9.0"
+    "@hisystems/snowpack": "^2.10.0",
+    "@hisystems/snowpack-app-scripts-vue": "^1.8.5"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"
 }

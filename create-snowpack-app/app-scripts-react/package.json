@@ -1,6 +1,6 @@
 {
   "name": "@hisystems/snowpack-app-scripts-react",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "main": "snowpack.config.js",
   "publishConfig": {
     "access": "public"
@@ -11,9 +11,9 @@
     "@babel/plugin-syntax-import-meta": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
-    "@hisystems/snowpack-plugin-babel": "^2.1.0",
-    "@hisystems/snowpack-plugin-dotenv": "^2.0.1",
-    "@hisystems/snowpack-plugin-react-refresh": "^2.1.0",
+    "@hisystems/snowpack-plugin-babel": "^2.1.1",
+    "@hisystems/snowpack-plugin-dotenv": "^2.0.2",
+    "@hisystems/snowpack-plugin-react-refresh": "^2.1.1",
     "babel-jest": "^26.2.2",
     "babel-preset-react-app": "^9.1.2",
     "react-app-polyfill": "^1.0.6"
