@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-config-minify",
+  "name": "@hisystems/snowpack-test-config-minify",
   "description": "This test ensures that --minify enables minification",
   "scripts": {
     "testbuild": "snowpack build --minify"
@@ -15,6 +15,6 @@
     "array-flatten": "^3.0.0"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

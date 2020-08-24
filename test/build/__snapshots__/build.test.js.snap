@@ -492,7 +492,7 @@ exports[`snowpack build config-out: package.json 1`] = `
 "{
   \\"private\\": true,
   \\"version\\": \\"1.0.1\\",
-  \\"name\\": \\"@snowpack/test-config-out\\",
+  \\"name\\": \\"@hisystems/snowpack-test-config-out\\",
   \\"description\\": \\"Test for devOptions.out\\",
   \\"scripts\\": {
     \\"testbuild\\": \\"snowpack build\\"
@@ -504,7 +504,7 @@ exports[`snowpack build config-out: package.json 1`] = `
   },
   \\"devDependencies\\": {
     \\"cross-env\\": \\"^7.0.2\\",
-    \\"snowpack\\": \\"^2.7.0\\"
+    \\"@hisystems/snowpack\\": \\"^2.7.0\\"
   }
 }"
 `;

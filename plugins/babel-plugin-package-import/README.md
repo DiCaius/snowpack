@@ -1,14 +1,14 @@
-# @snowpack/babel-plugin-package-import
+# @hisystems/snowpack-babel-plugin-package-import
 
 Babel plugin to rewrite package imports from their package name to their resolved `web_modules` URL. Uses the `import-map.json` file contained in each `web_modules/` directory to map each package.
 
 ```
-npm install --save-dev @snowpack/babel-plugin-package-import
+npm install --save-dev @hisystems/snowpack-babel-plugin-package-import
 ```
 
 ```js
 // babel.config.json / .babelrc
-"plugins": [["@snowpack/babel-plugin-package-import", { /* options */ }]]
+"plugins": [["@hisystems/snowpack-babel-plugin-package-import", { /* options */ }]]
 ```
 
 ## Plugin Options

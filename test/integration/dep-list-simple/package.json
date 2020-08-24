@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-dep-list-simple",
+  "name": "@hisystems/snowpack-test-dep-list-simple",
   "scripts": {
     "testinstall": "snowpack"
   },
@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "async": "3.1.0",
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

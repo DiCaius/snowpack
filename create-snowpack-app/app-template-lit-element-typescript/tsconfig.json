@@ -1,5 +1,5 @@
 {
-  "extends": "@snowpack/app-scripts-lit-element/tsconfig.base.json",
+  "extends": "@hisystems/snowpack-app-scripts-lit-element/tsconfig.base.json",
   "include": ["src", "types"],
   "exclude": ["node_modules"],
   "compilerOptions": {

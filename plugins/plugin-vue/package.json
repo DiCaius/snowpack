@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/plugin-vue",
+  "name": "@hisystems/snowpack-plugin-vue",
   "version": "2.1.1",
   "main": "plugin.js",
   "license": "MIT",

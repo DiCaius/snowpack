@@ -1,8 +1,8 @@
 {
   "private": true,
   "version": "1.0.0",
-  "name": "@snowpack/test-config-extends-plugins-base",
+  "name": "@hisystems/snowpack-test-config-extends-plugins-base",
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^1.6.0-alpha.0"
+    "@hisystems/snowpack-plugin-dotenv": "^1.6.0-alpha.0"
   }
 }

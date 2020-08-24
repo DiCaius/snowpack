@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-error-empty-dep-list",
+  "name": "@hisystems/snowpack-test-error-empty-dep-list",
   "scripts": {
     "testinstall": "snowpack"
   },
@@ -9,6 +9,6 @@
     "install": []
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

@@ -1,15 +1,15 @@
-# @snowpack/plugin-webpack
+# @hisystems/snowpack-plugin-webpack
 
 Use Webpack to bundle your application for production.
 
 ```
-npm install --save-dev @snowpack/plugin-webpack
+npm install --save-dev @hisystems/snowpack-plugin-webpack
 ```
 
 ```js
 // snowpack.config.json
 {
-  "plugins": [["@snowpack/plugin-webpack", { /* see "Plugin Options" below */}]]
+  "plugins": [["@hisystems/snowpack-plugin-webpack", { /* see "Plugin Options" below */}]]
 }
 ```
 
@@ -17,7 +17,7 @@ npm install --save-dev @snowpack/plugin-webpack
 
 ```js
 {
-  "scripts": {"bundle:*": "@snowpack/plugin-webpack"}
+  "scripts": {"bundle:*": "@hisystems/snowpack-plugin-webpack"}
 }
 ```
 
@@ -38,7 +38,7 @@ Note that this requires you use a `snowpack.config.js` JavaScript config file. J
 module.exports = {
   plugins: [
     [
-      "@snowpack/plugin-webpack",
+      "@hisystems/snowpack-plugin-webpack",
       {
         extendConfig: (config) => {
           config.plugins.push(/* ... */);

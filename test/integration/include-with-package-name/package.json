@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-include-with-package-name",
+  "name": "@hisystems/snowpack-test-include-with-package-name",
   "description": "Test that 'include' import scanner supports package name imports",
   "scripts": {
     "testinstall": "snowpack"
@@ -19,6 +19,6 @@
     "vue-router": "^3.0.0"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

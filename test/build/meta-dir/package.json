@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-meta-dir",
+  "name": "@hisystems/snowpack-test-meta-dir",
   "description": "Test that makes sure that the metaDir can be configured and still build",
   "scripts": {
     "prepare": "snowpack",
@@ -20,6 +20,6 @@
     "shallow-equal": "^1.2.1"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

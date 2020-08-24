@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-base-url-homepage",
+  "name": "@hisystems/snowpack-test-base-url-homepage",
   "description": "Test to make sure that the `homepage` key works (should see `/static/` in index.html)",
   "homepage": "/static/",
   "scripts": {
@@ -21,6 +21,6 @@
     "array-flatten": "^3.0.0"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

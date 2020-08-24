@@ -5,7 +5,7 @@
   },
   "plugins": [
     [
-      "@snowpack/plugin-run-script",
+      "@hisystems/snowpack-plugin-run-script",
       { "cmd": "eleventy", "watch": "$1 --watch" }
     ]
   ]

@@ -1,9 +1,9 @@
-# @snowpack/plugin-react-refresh
+# @hisystems/snowpack-plugin-react-refresh
 
 Transforms JavaScript files containing React components automatically to enable React Fast Refresh via Snowpack's HMR API. 
 
 ```
-npm install --save-dev @snowpack/plugin-react-refresh
+npm install --save-dev @hisystems/snowpack-plugin-react-refresh
 ```
 
 ## Setup
@@ -11,7 +11,7 @@ npm install --save-dev @snowpack/plugin-react-refresh
 ```js
 // snowpack.config.json
 {
-  "plugins": ["@snowpack/plugin-react-refresh"]
+  "plugins": ["@hisystems/snowpack-plugin-react-refresh"]
 }
 ```
 

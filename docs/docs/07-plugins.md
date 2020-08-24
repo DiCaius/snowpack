@@ -19,9 +19,9 @@ For the official snowpack plugins, command would look like:
 
 ```bash
 # for npm
-npm install --save-dev @snowpack/[plugin-name]
+npm install --save-dev @hisystems/snowpack-[plugin-name]
 # for yarn
-yarn add --dev @snowpack/[plugin-name]
+yarn add --dev @hisystems/snowpack-[plugin-name]
 ```
 
 After that, you can connect the plugin to Snowpack via the `"plugins"` array in your Snowpack config. For example,
@@ -29,7 +29,7 @@ After that, you can connect the plugin to Snowpack via the `"plugins"` array in 
 ```js
 // snowpack.config.json
 {
-  "plugins": ["@snowpack/plugin-babel"]
+  "plugins": ["@hisystems/snowpack-plugin-babel"]
 }
 ```
 
@@ -39,7 +39,7 @@ This is all you need to add Babel to your application build pipeline. If the plu
 // snowpack.config.json
 {
   "plugins": [
-    ["@snowpack/plugin-babel", { /* ... */}]
+    ["@hisystems/snowpack-plugin-babel", { /* ... */}]
   ],
 }
 ```
@@ -48,30 +48,30 @@ NOTE: The **order** of plugins is important, for example, if there are multiple 
 
 ### Connect any Script/CLI
 
-If you can't find a plugin that fits your needs and don't want to write your own, you can also run CLI commands directly as a part of your build using one of our two utility plugins: `@snowpack/plugin-build-script` & `@snowpack/plugin-run-script`.
+If you can't find a plugin that fits your needs and don't want to write your own, you can also run CLI commands directly as a part of your build using one of our two utility plugins: `@hisystems/snowpack-plugin-build-script` & `@hisystems/snowpack-plugin-run-script`.
 
-#### @snowpack/plugin-build-script
+#### @hisystems/snowpack-plugin-build-script
 
 ```js
 // snowpack.config.json
-// [npm install @snowpack/plugin-build-script]
+// [npm install @hisystems/snowpack-plugin-build-script]
 {
   "plugins": [
-    ["@snowpack/plugin-build-script", { "cmd": "postcss", "input": [".css"], "output": [".css"]}]
+    ["@hisystems/snowpack-plugin-build-script", { "cmd": "postcss", "input": [".css"], "output": [".css"]}]
   ],
 }
 ```
 
 This plugin allows you to connect any CLI into your build process. Just give it a `cmd` CLI command that can take input from `stdin` and emit the build result via `stdout`. Check out the README for more information.
 
-#### @snowpack/plugin-run-script
+#### @hisystems/snowpack-plugin-run-script
 
 ```js
 // snowpack.config.json
-// [npm install @snowpack/plugin-run-script]
+// [npm install @hisystems/snowpack-plugin-run-script]
 {
   "plugins": [
-    ["@snowpack/plugin-run-script", { "cmd": "tsc --noEmit", "watch": "$1 --watch"}]
+    ["@hisystems/snowpack-plugin-run-script", { "cmd": "tsc --noEmit", "watch": "$1 --watch"}]
   ],
 }
 ```
@@ -80,14 +80,14 @@ This plugin allows you to run any CLI command as a part of your dev and build wo
 
 ### Official Plugins
 
-- [@snowpack/plugin-babel](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-babel)
-- [@snowpack/plugin-dotenv](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-dotenv)
-- [@snowpack/plugin-parcel](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-parcel)
-- [@snowpack/plugin-postcss](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-postcss)
-- [@snowpack/plugin-react-refresh](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-react-refresh)
-- [@snowpack/plugin-svelte](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-svelte)
-- [@snowpack/plugin-vue](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-vue)
-- [@snowpack/plugin-webpack](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-webpack)
+- [@hisystems/snowpack-plugin-babel](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-babel)
+- [@hisystems/snowpack-plugin-dotenv](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-dotenv)
+- [@hisystems/snowpack-plugin-parcel](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-parcel)
+- [@hisystems/snowpack-plugin-postcss](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-postcss)
+- [@hisystems/snowpack-plugin-react-refresh](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-react-refresh)
+- [@hisystems/snowpack-plugin-svelte](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-svelte)
+- [@hisystems/snowpack-plugin-vue](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-vue)
+- [@hisystems/snowpack-plugin-webpack](https://github.com/pikapkg/snowpack/tree/master/plugins/plugin-webpack)
 
 👉 **[Check out our full list](/plugins) of official plugins.**
 

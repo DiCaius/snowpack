@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/plugin-react-refresh",
+  "name": "@hisystems/snowpack-plugin-react-refresh",
   "version": "2.1.0",
   "main": "plugin.js",
   "license": "MIT",

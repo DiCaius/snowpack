@@ -1,9 +1,9 @@
-# @snowpack/plugin-babel
+# @hisystems/snowpack-plugin-babel
 
 Use Babel to build your files from source. Automatically inherits from your local project `.babelrc` or `babel.config.json` files.
 
 ```
-npm install --save-dev @snowpack/plugin-babel
+npm install --save-dev @hisystems/snowpack-plugin-babel
 ```
 
 ```js
@@ -11,7 +11,7 @@ npm install --save-dev @snowpack/plugin-babel
 {
   "plugins": [
     [
-      "@snowpack/plugin-babel",
+      "@hisystems/snowpack-plugin-babel",
       {
         "input": ['.js', '.mjs', '.jsx', '.ts', '.tsx'], // (optional) specify files for Babel to transform
         transformOptions: {

@@ -1,6 +1,6 @@
 {
   "version": "2.1.1",
-  "name": "@snowpack/plugin-run-script",
+  "name": "@hisystems/snowpack-plugin-run-script",
   "main": "plugin.js",
   "license": "MIT",
   "publishConfig": {

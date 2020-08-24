@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/app-template-lit-element",
+  "name": "@hisystems/snowpack-app-template-lit-element",
   "version": "1.8.7",
   "license": "MIT",
   "keywords": [
@@ -22,9 +22,9 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-proposal-decorators": "^7.10.5",
-    "@snowpack/app-scripts-lit-element": "^1.8.4",
+    "@hisystems/snowpack-app-scripts-lit-element": "^1.8.4",
     "prettier": "^2.0.5",
-    "snowpack": "^2.9.0"
+    "@hisystems/snowpack": "^2.9.0"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"
 }

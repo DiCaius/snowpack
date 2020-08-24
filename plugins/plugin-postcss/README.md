@@ -1,4 +1,4 @@
-# @snowpack/plugin-postcss
+# @hisystems/snowpack-plugin-postcss
 
 Run [PostCSS](https://github.com/postcss/postcss) on all `.css` files, including ones generated from Sass, Vue, and Svelte.
 
@@ -7,7 +7,7 @@ Run [PostCSS](https://github.com/postcss/postcss) on all `.css` files, including
 From a terminal, run the following:
 
 ```
-npm install --save-dev @snowpack/plugin-postcss postcss postcss-cli
+npm install --save-dev @hisystems/snowpack-plugin-postcss postcss postcss-cli
 ```
 
 Then add this plugin to your Snowpack config:
@@ -16,7 +16,7 @@ Then add this plugin to your Snowpack config:
 // snowpack.config.json
 {
   "plugins": [
-    "@snowpack/plugin-postcss"
+    "@hisystems/snowpack-plugin-postcss"
   ]
 }
 ```

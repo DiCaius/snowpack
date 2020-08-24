@@ -108,7 +108,7 @@ Snowpack maintains official plugins for both Webpack & Parcel. Connect your favo
 // snowpack.config.json
 {
   // Optimize your production builds with Webpack
-  "plugins": [["@snowpack/plugin-webpack", {/* ... */}]]
+  "plugins": [["@hisystems/snowpack-plugin-webpack", {/* ... */}]]
 }
 ```
 
@@ -136,14 +136,14 @@ npx create-snowpack-app new-dir --template [SELECT FROM BELOW] [--use-yarn]
 ```
 
 
-- [@snowpack/app-template-blank](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-blank)
-- [@snowpack/app-template-react](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-react)
-- [@snowpack/app-template-react-typescript](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-react-typescript)
-- [@snowpack/app-template-preact](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-preact)
-- [@snowpack/app-template-svelte](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-svelte)
-- [@snowpack/app-template-vue](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-vue)
-- [@snowpack/app-template-lit-element](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-lit-element)
-- [@snowpack/app-template-11ty](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-11ty)
+- [@hisystems/snowpack-app-template-blank](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-blank)
+- [@hisystems/snowpack-app-template-react](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-react)
+- [@hisystems/snowpack-app-template-react-typescript](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-react-typescript)
+- [@hisystems/snowpack-app-template-preact](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-preact)
+- [@hisystems/snowpack-app-template-svelte](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-svelte)
+- [@hisystems/snowpack-app-template-vue](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-vue)
+- [@hisystems/snowpack-app-template-lit-element](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-lit-element)
+- [@hisystems/snowpack-app-template-11ty](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app/app-template-11ty)
 - **[See all community templates](https://github.com/pikapkg/snowpack/tree/master/create-snowpack-app)**
 
 

@@ -1,16 +1,16 @@
-# @snowpack/plugin-svelte
+# @hisystems/snowpack-plugin-svelte
 
 Use the [Svelte compiler](https://svelte.dev/docs#Compile_time) to build your `.svelte` files from source.
 
 ```
-npm install --save-dev @snowpack/plugin-svelte
+npm install --save-dev @hisystems/snowpack-plugin-svelte
 ```
 
 ```js
 // snowpack.config.json
 {
   "plugins": [
-    ["@snowpack/plugin-svelte", { /* see “Plugin Options” below */ }]
+    ["@hisystems/snowpack-plugin-svelte", { /* see “Plugin Options” below */ }]
   ]
 }
 ```

@@ -1,4 +1,4 @@
 {
-  "extends": "@snowpack/app-scripts-lit-element",
+  "extends": "@hisystems/snowpack-app-scripts-lit-element",
   "plugins": []
 }

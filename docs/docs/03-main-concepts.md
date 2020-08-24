@@ -72,13 +72,13 @@ By default, `snowpack build` will build your site using the same unbundled appro
 
 **Connect your favorite bundler to Snowpack via a one-line plugin .** Bundlers normally require dozens or even hundreds of lines of configuration, but with Snowpack it's just a one-line change to your project config file. Snowpack builds your application *before* sending it to the bundler, so that all the bundler needs to do is worry about bundling the final JavaScript & CSS. No custom configuration required.
 
-Snowpack ships with official support for [webpack](https://www.npmjs.com/package/@snowpack/plugin-webpack). Connect the `"@snowpack/plugin-webpack"` plugin in your Snowpack configuration file and then run `snowpack build` to see your optimized, bundled build.
+Snowpack ships with official support for [webpack](https://www.npmjs.com/package/@hisystems/snowpack-plugin-webpack). Connect the `"@hisystems/snowpack-plugin-webpack"` plugin in your Snowpack configuration file and then run `snowpack build` to see your optimized, bundled build.
 
 ```js
 // snowpack.config.json
-// [npm install @snowpack/plugin-webpack]
+// [npm install @hisystems/snowpack-plugin-webpack]
 {
   // Optimize your production builds with Webpack
-  "plugins": [["@snowpack/plugin-webpack", {/* ... */}]]
+  "plugins": [["@hisystems/snowpack-plugin-webpack", {/* ... */}]]
 }
 ```

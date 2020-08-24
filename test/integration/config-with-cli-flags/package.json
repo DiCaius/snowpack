@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-config-with-cli-flags",
+  "name": "@hisystems/snowpack-test-config-with-cli-flags",
   "description": "Test that the --optimize flag overrides the config",
   "scripts": {
     "testinstall": "snowpack --no-source-map"
@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "shallow-equal": "^1.2.1",
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

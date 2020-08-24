@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/plugin-postcss",
+  "name": "@hisystems/snowpack-plugin-postcss",
   "version": "1.0.2",
   "main": "plugin.js",
   "license": "MIT",

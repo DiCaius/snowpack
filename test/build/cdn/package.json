@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-cdn",
+  "name": "@hisystems/snowpack-test-cdn",
   "description": "This test simulates a build from the Pika CDN",
   "scripts": {
     "start": "snowpack dev",
@@ -17,6 +17,6 @@
     }
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

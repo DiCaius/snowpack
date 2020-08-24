@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-source-pika-webdependencies",
+  "name": "@hisystems/snowpack-test-source-pika-webdependencies",
   "description": "Test that the lockfile import URLs & version info are used",
   "scripts": {
     "testinstall": "snowpack"
@@ -17,6 +17,6 @@
     }
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

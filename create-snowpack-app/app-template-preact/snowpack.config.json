@@ -1,4 +1,4 @@
 {
-  "extends": "@snowpack/app-scripts-preact",
+  "extends": "@hisystems/snowpack-app-scripts-preact",
   "plugins": []
 }

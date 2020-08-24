@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-include-ts",
+  "name": "@hisystems/snowpack-test-include-ts",
   "scripts": {
     "testinstall": "snowpack"
   },
@@ -18,6 +18,6 @@
     "vue-router": "^3.0.0"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

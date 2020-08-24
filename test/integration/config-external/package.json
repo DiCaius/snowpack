@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-config-external",
+  "name": "@hisystems/snowpack-test-config-external",
   "description": "Handle external packages",
   "scripts": {
     "testinstall": "snowpack"
@@ -24,6 +24,6 @@
     "config-external-pkg-b": "file:./packages/config-external-pkg-b"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

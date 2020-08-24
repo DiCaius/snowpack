@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-config-invalid",
+  "name": "@hisystems/snowpack-test-config-invalid",
   "description": "Test invalid configuration (install should be array)",
   "scripts": {
     "testinstall": "snowpack"
@@ -13,6 +13,6 @@
     "shallow-equal": "^1.2.1"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

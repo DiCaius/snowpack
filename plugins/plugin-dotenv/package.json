@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/plugin-dotenv",
+  "name": "@hisystems/snowpack-plugin-dotenv",
   "version": "2.0.1",
   "main": "plugin.js",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-source-pika",
+  "name": "@hisystems/snowpack-test-source-pika",
   "description": "Test that webDependencies work without a node_modules directory",
   "scripts": {
     "testinstall": "snowpack"
@@ -15,6 +15,6 @@
     }
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

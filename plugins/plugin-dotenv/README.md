@@ -1,15 +1,15 @@
-# @snowpack/plugin-dotenv
+# @hisystems/snowpack-plugin-dotenv
 
 Use [dotenv](https://github.com/motdotla/dotenv) to load environment variables from your project `.env` files. See Snowpack's [Environment Variables](https://www.snowpack.dev/#environment-variables) documentation to learn more.
 
 ```
-npm install --save-dev @snowpack/plugin-dotenv
+npm install --save-dev @hisystems/snowpack-plugin-dotenv
 ```
 
 ```js
 // snowpack.config.json
 {
-  "plugins": ["@snowpack/plugin-dotenv"]
+  "plugins": ["@hisystems/snowpack-plugin-dotenv"]
 }
 ```
 

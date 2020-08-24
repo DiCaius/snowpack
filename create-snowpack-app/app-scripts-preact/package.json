@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/app-scripts-preact",
+  "name": "@hisystems/snowpack-app-scripts-preact",
   "version": "1.8.5",
   "main": "snowpack.config.js",
   "publishConfig": {
@@ -13,8 +13,8 @@
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
     "@prefresh/snowpack": "1.1.1",
-    "@snowpack/plugin-babel": "^2.1.0",
-    "@snowpack/plugin-dotenv": "^2.0.1",
+    "@hisystems/snowpack-plugin-babel": "^2.1.0",
+    "@hisystems/snowpack-plugin-dotenv": "^2.0.1",
     "babel-jest": "^26.2.2",
     "react-app-polyfill": "^1.0.6",
     "react-refresh": "^0.8.3"

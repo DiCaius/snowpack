@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-dep-remote-url",
+  "name": "@hisystems/snowpack-test-dep-remote-url",
   "scripts": {
     "testinstall": "snowpack"
   },
@@ -14,6 +14,6 @@
     "remote-url-pkg": "file:./packages/remote-url-pkg"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("@snowpack/app-scripts-react/jest.config.js")(),
+  ...require("@hisystems/snowpack-app-scripts-react/jest.config.js")(),
 };

@@ -37,7 +37,7 @@ Snowpack supports live TypeScript type checking right in the Snowpack CLI dev co
 // Example: Connect TypeScript CLI (tsc) reporting to Snowpack
 {
   "plugins": [
-    ["@snowpack/plugin-run-script", {"cmd": "tsc --noEmit", "watch": "$1 --watch"}]
+    ["@hisystems/snowpack-plugin-run-script", {"cmd": "tsc --noEmit", "watch": "$1 --watch"}]
   ]
 }
 ```
@@ -50,7 +50,7 @@ The plugin will automatically read plugins & presets from your local project `ba
 
 ```js
 // snowpack.config.json
-"plugins": ["@snowpack/plugin-babel"],
+"plugins": ["@hisystems/snowpack-plugin-babel"],
 ```
 
 
@@ -77,14 +77,14 @@ You can import and use Preact without any custom configuration needed.
 
 ```js
 // snowpack.config.json
-"plugins": ["@snowpack/plugin-vue"]
+"plugins": ["@hisystems/snowpack-plugin-vue"]
 ```
 
 ### Svelte
 
 ```js
 // snowpack.config.json
-"plugins": ["@snowpack/plugin-svelte"]
+"plugins": ["@hisystems/snowpack-plugin-svelte"]
 ```
 
 
@@ -93,7 +93,7 @@ You can import and use Preact without any custom configuration needed.
 ```js
 // snowpack.config.json
 "plugins": [
-  ["@snowpack/plugin-build-script", {"cmd": "postcss", "input": [".css"], "output": [".css"]}]
+  ["@hisystems/snowpack-plugin-build-script", {"cmd": "postcss", "input": [".css"], "output": [".css"]}]
 ]
 ```
 
@@ -125,7 +125,7 @@ Follow the official [Tailwind CSS Docs](https://tailwindcss.com/docs/installatio
 // snowpack.config.json
 // Example: Build all src/css/*.scss files to public/css/*
 "plugins": [
-  ["@snowpack/plugin-run-script", {"cmd": "sass src/css:public/css --no-source-map", "watch": "$1 --watch"}]
+  ["@hisystems/snowpack-plugin-run-script", {"cmd": "sass src/css:public/css --no-source-map", "watch": "$1 --watch"}]
 ]
 
 // You can configure this to match your preferred layout:
@@ -151,7 +151,7 @@ To use Sass + PostCSS, check out [this guide](https://zellwk.com/blog/eleventy-s
 ```js
 // snowpack.config.json
 "plugins": [
-  ["@snowpack/plugin-run-script", {
+  ["@hisystems/snowpack-plugin-run-script", {
     "cmd": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     // Optional: Use npm package "watch" to run on every file change
     "watch": "watch \"$1\" src"
@@ -165,11 +165,11 @@ To use Sass + PostCSS, check out [this guide](https://zellwk.com/blog/eleventy-s
 // snowpack.config.json
 {
   // Optimize your production builds with Webpack
-  "plugins": [["@snowpack/plugin-webpack", {/* ... */}]]
+  "plugins": [["@hisystems/snowpack-plugin-webpack", {/* ... */}]]
 }
 ```
 
-Snowpack ships an official [webpack plugin](https://www.npmjs.com/package/@snowpack/plugin-webpack) for optimizing your build. Connect the `"@snowpack/plugin-webpack"` plugin into your Snowpack configuration file and then run `snowpack build` to see your optimized, bundled build.
+Snowpack ships an official [webpack plugin](https://www.npmjs.com/package/@hisystems/snowpack-plugin-webpack) for optimizing your build. Connect the `"@hisystems/snowpack-plugin-webpack"` plugin into your Snowpack configuration file and then run `snowpack build` to see your optimized, bundled build.
 
 
 ### Workbox

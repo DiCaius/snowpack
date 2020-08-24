@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/plugin-parcel",
+  "name": "@hisystems/snowpack-plugin-parcel",
   "version": "2.0.3",
   "main": "plugin.js",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.1",
-  "name": "@snowpack/test-legacy-mount-scripts",
+  "name": "@hisystems/snowpack-test-legacy-mount-scripts",
   "description": "This tests the old scripts mount:* configuration format",
   "scripts": {
     "start": "snowpack dev",
@@ -21,6 +21,6 @@
     "array-flatten": "^3.0.0"
   },
   "devDependencies": {
-    "snowpack": "^2.7.0"
+    "@hisystems/snowpack": "^2.7.0"
   }
 }

@@ -7,7 +7,7 @@ Snowpack's behavior can be configured by CLI flags, a custom Snowpack config fil
 Snowpack supports configuration files in multiple formats, sorted by priority order:
 
 1. `--config [path]`: If provided.
-1. `package.json`: A namespaced config object (`"snowpack": {...}`).
+1. `package.json`: A namespaced config object (`"@hisystems/snowpack": {...}`).
 1. `snowpack.config.js`: (`module.exports = {...}`).
 1. `snowpack.config.json`: (`{...}`).
 
