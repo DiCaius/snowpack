@@ -37,7 +37,7 @@ export function esbuildPlugin(config: SnowpackConfig, {input}: {input: string[]}
         jsxFragment: isPreact ? 'Fragment' : undefined,
         sourcefile: filePath,
         sourcemap: config.buildOptions.sourceMaps,
-        target: config.buildOptions.target
+        target: config.buildOptions.target,
       });
       for (const warning of warnings) {
         logger.error(`${colors.bold('!')} ${filePath}

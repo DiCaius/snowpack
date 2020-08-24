@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build --scope=snowpack",
+    "build": "lerna run build --scope=@hisystems/snowpack",
     "publish": "lerna publish --no-private",
     "format": "prettier --write \"snowpack/src/**/*.ts\"",
     "test": "jest --test-timeout=30000"
