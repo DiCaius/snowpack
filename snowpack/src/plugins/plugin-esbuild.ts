@@ -22,7 +22,7 @@ function getLoader(filePath: string): 'js' | 'jsx' | 'ts' | 'tsx' {
 
 export function esbuildPlugin(config: SnowpackConfig, {input}: {input: string[]}): SnowpackPlugin {
   return {
-    name: '@snowpack/plugin-esbuild',
+    name: '@hisystems/snowpack-plugin-esbuild',
     resolve: {
       input,
       output: ['.js'],
@@ -37,6 +37,7 @@ export function esbuildPlugin(config: SnowpackConfig, {input}: {input: string[]}
         jsxFragment: isPreact ? 'Fragment' : undefined,
         sourcefile: filePath,
         sourcemap: config.buildOptions.sourceMaps,
+        target: config.buildOptions.target
       });
       for (const warning of warnings) {
         logger.error(`${colors.bold('!')} ${filePath}

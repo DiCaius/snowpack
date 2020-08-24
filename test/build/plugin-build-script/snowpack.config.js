@@ -4,7 +4,7 @@ module.exports = {
   },
   plugins: [
     [
-      '@snowpack/plugin-build-script',
+      '@hisystems/snowpack-plugin-build-script',
       {
         input: ['.ts'],
         output: ['.js'],
