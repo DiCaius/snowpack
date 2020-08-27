@@ -105,7 +105,7 @@ export async function cli(args: string[]) {
 
   if (cmd === 'build') {
     await buildCommand(commandOptions);
-    return;
+    process.exit(0);
   }
   if (cmd === 'dev') {
     await devCommand(commandOptions);
