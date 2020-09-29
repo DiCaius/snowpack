@@ -265,6 +265,7 @@ export async function command(commandOptions: CommandOptions) {
         })
         .catch((err) => {
           logger.error(`[${runPlugin.name}] ${err}`);
+          process.exit(1)
         });
     }
   }
