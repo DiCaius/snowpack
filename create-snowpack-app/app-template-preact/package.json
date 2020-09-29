@@ -1,6 +1,6 @@
 {
   "name": "@hisystems/snowpack-app-template-preact",
-  "version": "1.8.9",
+  "version": "1.8.10",
   "license": "MIT",
   "keywords": [
     "csa-template"
@@ -19,7 +19,7 @@
     "preact": "^10.4.6"
   },
   "devDependencies": {
-    "@hisystems/snowpack": "^2.10.1",
+    "@hisystems/snowpack": "^2.10.2",
     "@hisystems/snowpack-app-scripts-preact": "^1.8.6",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/preact": "^1.0.2",

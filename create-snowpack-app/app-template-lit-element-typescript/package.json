@@ -1,6 +1,6 @@
 {
   "name": "@hisystems/snowpack-app-template-lit-element-typescript",
-  "version": "1.8.9",
+  "version": "1.8.10",
   "license": "MIT",
   "keywords": [
     "csa-template"
@@ -23,7 +23,7 @@
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-proposal-decorators": "^7.10.5",
     "@babel/preset-typescript": "^7.10.4",
-    "@hisystems/snowpack": "^2.10.1",
+    "@hisystems/snowpack": "^2.10.2",
     "@hisystems/snowpack-app-scripts-lit-element": "^1.8.5",
     "@types/snowpack-env": "^2.3.0",
     "prettier": "^2.0.5",
